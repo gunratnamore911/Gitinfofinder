@@ -2,7 +2,7 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #dc3545;
+  --primary-color: #2a81f3;
   --dark-color: #333333;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -259,6 +259,11 @@ img {
 .alert-light {
   background: var(--light-color);
   color: #333;
+}
+.gunratna {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Bebas Neue", cursive;
 }
 
 .btn-dark,
