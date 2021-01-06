@@ -8,6 +8,11 @@
   --danger-color: #dc3545;
   --success-color: #28a745;
 }
+.bunty {
+  display: "grid";
+  grid-template-columns: repeat(3, fr);
+  grid-gap: 1rem;
+}
 
 * {
   box-sizing: border-box;

@@ -8,7 +8,7 @@ const Users = ({ users, loading }) => {
     return <Spinner />;
   } else {
     return (
-      <div style={userStyle}>
+      <div className="grid-3" style={userStyle}>
         {users.map((user) => (
           <UserItem key={user.id} user={user}></UserItem>
         ))}
@@ -18,7 +18,8 @@ const Users = ({ users, loading }) => {
 };
 const userStyle = {
   display: "grid",
-  gridTemplateColumns: "repeat(3,1fr)",
+  gridTemplateColumns: "repeat(auto-fit,20rem)",
+  justifyContent: "center",
   gridGap: "1rem",
 };
 UserItem.prototype = {
